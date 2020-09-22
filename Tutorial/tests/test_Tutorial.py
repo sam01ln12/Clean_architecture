@@ -22,7 +22,7 @@ def test_add_three_numbers():
 def test_add_many_numbers():
     s = range(100)
 
-    assert Calc().add(*s) == 4950
+    assert Calc().add_many_numbers(*s) == 4950
 
 
 def test_subtract_two_numbers():
